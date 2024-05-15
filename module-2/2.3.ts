@@ -16,8 +16,6 @@
             age:1
         }
     ]
-
-
     //generic tuple
     type GenericTuple<X,Y> = [X,Y]
     const manush:GenericTuple<string,string> =['Sudipto', 'Mukta']
