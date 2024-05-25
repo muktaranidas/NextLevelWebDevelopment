@@ -29,3 +29,5 @@
     //
 
 }
+
+//ts-node-dev --respawn --transpile-only module-3/3.5.ts
