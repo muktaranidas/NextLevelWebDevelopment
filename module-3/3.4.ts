@@ -46,9 +46,6 @@
             animal.makeSound()
         }
     }
-    
-    
-    
     const dog = new Dog("Dog Bhai", "dog")
     const cat = new Cat("Cat Bhai", "cat")
     getAnimal(dog);
