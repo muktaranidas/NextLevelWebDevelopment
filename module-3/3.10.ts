@@ -1,10 +1,11 @@
 {
-    // access modifiers
+    
+    // Encapsulation
     class BankAccount {
        public readonly id: number;
        public name: string;
        private _balance:number
-    //    protected _balanceProtected:number
+  
     constructor(id: number, name: string, _balance: number){
         this.id = id;
         this.name = name;
@@ -17,11 +18,11 @@
             return this._balance;
         }
     } 
-    class StudentAccount extends BankAccount{
-        test() {
-            this._balanceProtected
-        }
-    }
+    // class StudentAccount extends BankAccount{
+    //     test() {
+    //         this._balanceProtected
+    //     }
+    // }
     const goribManusherAccount = new BankAccount(111, "Mukta", 20)
     goribManusherAccount.addDeposit(20)
     const myBalance = goribManusherAccount.getBalance()
@@ -31,3 +32,5 @@
 }
 
 //ts-node-dev --respawn --transpile-only module-3/3.5.ts
+//
+}
