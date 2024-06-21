@@ -3,7 +3,7 @@
     // Encapsulation
     class BankAccount {
        public readonly id: number;
-       public name: string;
+        name: string;
        private _balance:number
   
     constructor(id: number, name: string, _balance: number){
